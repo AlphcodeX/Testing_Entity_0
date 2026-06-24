@@ -67,6 +67,21 @@
         .signup-form button:hover {
             background-color: darkred;
         }
+        .btn-link {
+            display: inline-block;
+            width: auto;
+            padding: 12px 25px;
+            background-color: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+            transition: background-color 0.3s ease;
+        }
+        .btn-link:hover {
+            background-color: #5a6268;
+        }
         .error-message {
             color: #ff6666;
             margin: 10px 0;
@@ -124,8 +139,8 @@
         <div class="error-message" id="errorMessage"></div>
 
         <button type="submit">SIGN UP</button>
-         <br>
-       <button><a href="index.html">Go back</a></button>
+        <br>
+        <a href="Index.html" class="btn-link">Go back</a>
     </form>
     <script>
         const form = document.getElementById('signupForm');
